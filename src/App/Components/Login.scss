@@ -1,0 +1,176 @@
+@import "../stylesheets/variable.scss";
+
+  
+  .Login{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    height:46.5rem;
+  }
+  
+  
+  
+  .Login_image{
+    margin-left: 9rem;
+    margin-top: 9rem;
+    width:70%;
+    background-color: white;
+
+  }
+
+  // .backgrounds{
+
+  //   width:50px;
+  // }
+  
+  .Login_form{
+  
+    width:inherit;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22rem;
+    
+    
+  }
+  
+  .Login_head{
+    margin-bottom: 3rem;
+    
+  }
+  .head{
+    font-size: 30px;
+    font-family: DMSans;
+  
+  }
+  .subhead{
+    font-size: 16px;
+    font-family: DMSans;
+  }
+
+  .labelhead{
+    font-size: 18px;
+    font-family: DMSans;
+  }
+  
+  .form{
+    background-color: white;
+   padding:50px ;
+    display: flex;
+    flex-direction: column;
+  
+
+    box-shadow: 5px 5px 5px 5px rgb(189, 182, 182); 
+    border-radius: 1rem;
+  
+  
+  
+  }
+  
+  .inputbox{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border:1px solid black;
+    padding: 7px 11px 7px 11px;
+  
+
+  }
+  
+  .inputbox1{
+    margin-left: 1.2rem;
+    margin-top:1rem;
+    border-radius: 0.5rem;
+    border:1px solid black;
+    padding: 7px 11px 7px 11px;
+  
+  }
+  
+  .forgetPassword{
+    margin-top: 0.3rem;   
+    text-align: right;
+    font-size: 14px;
+    color: rgb(103, 103, 243);
+
+  }
+  
+  .title{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+    font-family: DMSans;
+    margin-bottom: 2rem;
+    font-size: 32px;
+  
+  }
+  
+  .Log{
+    
+    margin-top:3rem;
+    border-radius: 0.5rem;
+    padding:7px 11px 7px 11px;
+    color: black;
+    
+    
+  }
+
+  .Log:hover{
+    background-color: #2f80ed;
+    color: white;
+  }
+  
+  .CreateAcc{
+  
+    margin-left: 1rem;
+    display: inline;
+    background-color: white;
+    
+    margin-left: 4rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding:7px;
+  }
+   .CreateAcc:hover{
+    background-color: #2f80ed;
+    color: white;
+   }
+  
+  .google{
+    width:4rem;
+    height:4rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  
+  }
+  .twitter{
+    width:4rem;
+    height:4rem;
+    margin-top: 1rem;
+    
+  }
+  .other{
+    margin-top: 2rem;
+    font-size: 13px;
+    
+  }
+  .images{
+    height:auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 3rem;
+  }
+  
+  .Error{
+  
+    color: rgb(246, 54, 54);
+    margin-bottom: 1rem;
+  }
+  
+  .buttons{
+    text-align: center;
+   
+  }
+
