@@ -5,6 +5,7 @@ import Centreelement from "../Components/centerelement/centreelement.js";
 import Projectdetails from "../Components/projectdetails/projectdetails.js";
 import runningprojectlogo from ".././Assests/images/RunningProjects.svg";
 import "../Pages/homepage.scss";
+
 import Navbar from "../Components/navbar/Navbar"
 
 function Homepage(props) {

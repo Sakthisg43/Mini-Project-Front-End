@@ -5,6 +5,7 @@ import Profilepic from "../../Assests/images/profilepic.png";
 import searchicon from "../../Assests/icons/Vector.png";
 import { useNavigate } from "react-router-dom";
 import "./navbar.scss";
+import Projectlogo from "../../Assests/images/Prologo.png"
 import "../../stylesheets/variable.scss"
 
 const Navbar = (props)=> {
@@ -18,9 +19,10 @@ const Navbar = (props)=> {
       <div>
         <img
           className="navbar-container_Dashboardlogo"
-          src={Divumlogo}
+          src={Projectlogo}
           alt="logo"
         />
+        
       </div>
       <div className="navbar-container_inputbar">
         <img
